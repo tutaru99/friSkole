@@ -1,0 +1,2 @@
+# friSkole
+ Project for friSkole

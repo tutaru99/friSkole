@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container #navigation a{
+    text-decoration: none;
+    color: rgb(26, 185, 190);
+}
