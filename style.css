@@ -1,9 +1,61 @@
+/* Scroll bar*/
+/* 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(77, 2, 2); 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+*/
+
+
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container #navigation a{
     text-decoration: none;
-    color: rgb(26, 185, 190);
+    color: #fff;
+    padding: 20px 15px 0 0;
+    font-size: 20px;
+}
+.container #navigation{
+    margin: 20px 0 0 0;
+}
+ #header{
+    position: absolute;
+   max-width: 1550px;
+   max-height: auto;
+   
+}
+
+#headerText{
+    color: rgb(201, 4, 4);
+
+}
+
+
+#headerText a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px 0 40px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    
+   
 }
