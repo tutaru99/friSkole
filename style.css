@@ -28,6 +28,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .container #navigation a{
     text-decoration: none;
     color: #fff;
@@ -38,14 +39,15 @@
     margin: 20px 0 0 0;
 }
  #header{
-    position: absolute;
+  position: absolute;
    max-width: 1550px;
    max-height: auto;
+   z-index: -2;
    
 }
 
 #headerText{
-    color: rgb(201, 4, 4);
+    color: #fff;
 
 }
 
@@ -58,4 +60,26 @@
     letter-spacing: 2px;
     
    
+}
+
+#arrowDown{
+  margin: 150px 0 0 1300px;
+}
+
+
+#schoolBoard{
+background: url(img/Home_2.png);
+ 
+  background-image: cover;
+  background-repeat: no-repeat;
+}
+
+#textBoard{
+  margin: 300px 300px;
+  color: #fff;
+
+}
+
+#nameCards{
+  
 }
