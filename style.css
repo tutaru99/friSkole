@@ -44,6 +44,9 @@
   height: auto;
    
 }
+#SloganText {
+  margin-top: 350px;
+}
 
 #headerText{
     color: #fff;
