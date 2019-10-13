@@ -39,10 +39,9 @@
     margin: 20px 0 0 0;
 }
  #header{
-  position: absolute;
-   max-width: 1550px;
-   max-height: auto;
-   z-index: -2;
+   position: absolute;
+  max-width: 100%;
+  height: auto;
    
 }
 
