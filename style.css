@@ -42,10 +42,11 @@
    position: absolute;
   max-width: 100%;
   height: auto;
+  z-index: -1;
    
 }
 #SloganText {
-  margin-top: 350px;
+  margin-top: 15%;
 }
 
 #headerText{
@@ -65,7 +66,8 @@
 }
 
 #arrowDown{
-  margin: 150px 0 0 0;
+  margin: 15% 120px 0 0;
+
 }
 
 
