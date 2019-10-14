@@ -39,7 +39,7 @@
     margin: 20px 0 0 0;
 }
  #header{
-   position: absolute;
+  position: absolute;
   max-width: 100%;
   height: auto;
   z-index: -1;
@@ -67,13 +67,8 @@
 
 #arrowDown{
   margin: 15% 120px 0 0;
-
-}
-
-
-#schoolBoard{
 background: url(img/Home_2.png);
- 
+
   background-image: cover;
   background-repeat: no-repeat;
 }
