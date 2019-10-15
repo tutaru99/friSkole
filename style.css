@@ -79,6 +79,8 @@
 
 #schoolBoard{
 background-image: url(img/Home_2.png);
+height: 1090px;
+background-repeat: no-repeat;
 
 }
 
@@ -122,4 +124,8 @@ border-bottom: solid 2px black;
 
 #devby{
   color: #fff;
+}
+
+#section3{
+  margin: 100px 0 0 0;
 }
