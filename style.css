@@ -19,54 +19,86 @@
     background: #555; 
   }
 */
-
-
-*{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+/* COLOR VARIABLES
+============================================= */
+/* GRADIENT LIST
+============================================= */
+body {
+  height: auto;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
 
-.container #navigation a{
-    text-decoration: none;
-    color: #fff;
-    padding: 20px 15px 0 0;
-    font-size: 20px;
+.btn-default {
+  background: -webkit-gradient(linear, left top, right top, from(#17A4E3), color-stop(10%, #17A4E3), color-stop(25%, #2e93d7), color-stop(39%, #2e93d7), color-stop(79%, #287092), to(#287092));
+  background: linear-gradient(left, #17A4E3 0%, #17A4E3 10%, #2e93d7 25%, #2e93d7 39%, #287092 79%, #287092 100%);
+  color: white;
+  border: 0;
+  border-radius: 2em;
+  cursor: pointer;
+  padding: 0.7em 2em;
+  width: 200px;
 }
-.container #navigation{
-    margin: 20px 0 0 0;
+
+.home {
+  position: relative;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 1;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
- #header{
+
+.container #navigation a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 15px 0 0;
+  font-size: 20px;
+}
+
+.container #navigation {
+  margin: 20px 0 0 0;
+}
+
+#header {
   position: absolute;
   max-width: 100%;
   height: auto;
   z-index: -1;
-   
 }
+
 #SloganText {
   margin-top: 15%;
+  font-family: 'Roboto';
 }
 
-#headerText{
-    color: #fff;
-
+#headerText {
+  color: #fff;
 }
 
-
-#headerText a{
-    color: #fff;
-    text-decoration: none;
-    padding: 20px 20px 0 40px;
-    font-size: 17px;
-    letter-spacing: 2px;
-    
-   
-}
-
-#arrowDown{
+#arrowDown {
   margin: 15% 120px 0 0;
+}
+
+#textBoard {
+  margin: 400px;
+  color: #fff;
+}
+
+#schoolBoard {
+  background-image: url(/img/Home_2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+/*# sourceMappingURL=style.css.map */
   background-image: cover;
   background-repeat: no-repeat;
 }
@@ -124,8 +156,4 @@ border-bottom: solid 2px black;
 
 #devby{
   color: #fff;
-}
-
-#section3{
-  margin: 100px 0 0 0;
 }
