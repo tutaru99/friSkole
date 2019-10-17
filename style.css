@@ -86,7 +86,10 @@ body {
 }
 
 #arrowDown {
-  margin: 15% 120px 0 0;
+  margin: 8% 120px 0 0;
+}
+#arrowDown img:hover {
+  height: 80px;
 }
 
 #textBoard {

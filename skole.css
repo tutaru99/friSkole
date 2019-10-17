@@ -81,6 +81,9 @@ body {
     margin-top: 15%;
     font-family: 'Roboto';
   }
+  #SloganText h1{
+   letter-spacing: 4px;
+  }
   
   #headerText {
     color: #fff;
@@ -164,7 +167,11 @@ body {
 #keedz{
     margin: -40% 0;
 }
+
+#workinghrs{
+  letter-spacing: 4px;
+}
+
 #section3{
-    
-   
+  letter-spacing: 3px;
 }
