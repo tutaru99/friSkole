@@ -12,7 +12,7 @@ body {
 
 .btn-default {
   background: -webkit-gradient(linear, left top, right top, from(#17A4E3), color-stop(10%, #17A4E3), color-stop(25%, #2e93d7), color-stop(39%, #2e93d7), color-stop(79%, #287092), to(#287092));
-  background: linear-gradient(left, #17A4E3 0%, #17A4E3 10%, #2e93d7 25%, #2e93d7 39%, #287092 79%, #287092 100%);
+  background: -moz-linear-gradient(left, #17A4E3 0%, #17A4E3 10%, #2e93d7 25%, #2e93d7 39%, #287092 79%, #287092 100%);
   color: white;
   border: 0;
   border-radius: 2em;
@@ -108,6 +108,7 @@ footer{
 
 }
 
+
 #footerLinks a{
   color: #fff;
   text-decoration: none;
@@ -141,4 +142,9 @@ border-bottom: solid 2px black;
   color:#38739A;
 }
 
-
+.gradient-box {
+  background-image: linear-gradient(to bottom right, #19578E, #0BEDF5);
+  border-radius: 50px;
+  padding: 60px;
+  height: 230px;
+}
