@@ -11,8 +11,9 @@ body {
 }
 
 .btn-default {
-  background: -webkit-gradient(linear, left top, right top, from(#17A4E3), color-stop(10%, #17A4E3), color-stop(25%, #2e93d7), color-stop(39%, #2e93d7), color-stop(79%, #287092), to(#287092));
-  background: -moz-linear-gradient(left, #17A4E3 0%, #17A4E3 10%, #2e93d7 25%, #2e93d7 39%, #287092 79%, #287092 100%);
+  background-image: linear-gradient(to bottom right, #19578E, #0BEDF5);
+  /* background: -webkit-gradient(linear, left top, right top, from(#17A4E3), color-stop(10%, #17A4E3), color-stop(25%, #2e93d7), color-stop(39%, #2e93d7), color-stop(79%, #287092), to(#287092));
+  background: -moz-linear-gradient(left, #17A4E3 0%, #17A4E3 10%, #2e93d7 25%, #2e93d7 39%, #287092 79%, #287092 100%); */
   color: white;
   border: 0;
   border-radius: 2em;
