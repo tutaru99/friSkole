@@ -55,6 +55,17 @@ body {
   #references{
       margin-top: 250px;
   }
+  #references{
+    margin-top: 250px;
+}
+#references a{
+  text-decoration: none;
+  color: #fff;
+}
+#references a:hover{
+  border-bottom: 2px solid rgb(255, 255, 255);
+  
+}
   footer{
     background-image: url(img/Footer.png);
     background-repeat: no-repeat;
