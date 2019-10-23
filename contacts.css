@@ -54,10 +54,12 @@ body {
   #SloganText {
     margin-top: 15%;
     font-family: 'Roboto';
+  
   }
   
   #headerText {
     color: #fff;
+    margin-bottom: 50px;
   }
   
   #arrowDown {

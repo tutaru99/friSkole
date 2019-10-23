@@ -88,6 +88,11 @@ body {
   #arrowDown {
     margin: 15% 120px 0 0;
   }
+  #arrow {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0 0.8rem 0 0.8rem;
+  }
   
   #textBoard {
     margin: 400px;
