@@ -1,28 +1,3 @@
-/* Scroll bar*/
-/* 
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
- 
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgb(77, 2, 2); 
-  }
-  
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-*/
-/* COLOR VARIABLES
-============================================= */
-/* GRADIENT LIST
-============================================= */
 body {
     height: auto;
   }
@@ -36,8 +11,9 @@ body {
   }
   
   .btn-default {
-    background: -webkit-gradient(linear, left top, right top, from(#17A4E3), color-stop(10%, #17A4E3), color-stop(25%, #2e93d7), color-stop(39%, #2e93d7), color-stop(79%, #287092), to(#287092));
-    background: linear-gradient(left, #17A4E3 0%, #17A4E3 10%, #2e93d7 25%, #2e93d7 39%, #287092 79%, #287092 100%);
+    background-image: linear-gradient(to bottom right, #19578E, #0BEDF5);
+    /* background: -webkit-gradient(linear, left top, right top, from(#17A4E3), color-stop(10%, #17A4E3), color-stop(25%, #2e93d7), color-stop(39%, #2e93d7), color-stop(79%, #287092), to(#287092));
+    background: -moz-linear-gradient(left, #17A4E3 0%, #17A4E3 10%, #2e93d7 25%, #2e93d7 39%, #287092 79%, #287092 100%); */
     color: white;
     border: 0;
     border-radius: 2em;
@@ -74,32 +50,27 @@ body {
     max-width: 100%;
     height: auto;
     z-index: -1;
+    
   }
-  
-  #SloganText {
-    margin-top: -15%;
-    font-family: 'Roboto';
+  #references{
+      margin-top: 250px;
   }
+  #references{
+    margin-top: 250px;
+}
+#references a{
+  text-decoration: none;
+  color: #fff;
+}
+#references a:hover{
+  border-bottom: 2px solid rgb(255, 255, 255);
   
-  #headerText {
-    color: #fff;
-  }
-
-/*   #chica{
-      margin: -30% 0 0 35%;
-      position: absolute;
-  } */
- 
-  
-
-  
- 
-  
+}
   footer{
     background-image: url(img/Footer.png);
     background-repeat: no-repeat;
     height: 580px;
-    margin: 300px 0 0 0;
+    margin: 400px 0 0 0;
   
   }
   
@@ -133,11 +104,3 @@ body {
     color: #fff;
   }
 
-  #admiss{
-      font-size: 44px;
-      font-style: light;
-      color: #777777;
-  }
-  
-  
-  
