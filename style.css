@@ -153,3 +153,8 @@ border-bottom: solid 2px black;
   padding: 60px;
   height: 230px;
 }
+
+.card{
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
