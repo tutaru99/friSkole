@@ -83,17 +83,12 @@ body {
   }
   
   #textBoard{
-    margin: 400px 300px;
+    
     color: rgb(255, 255, 255);
   
   }
   
-  #schoolBoard{
-  background-image: url(img/Home_2.png);
-  height: 1090px;
-  background-repeat: no-repeat;
-  
-  }
+
   
   #nameCards img{
     height: 100px;
