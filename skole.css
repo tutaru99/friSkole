@@ -81,13 +81,12 @@ body {
     margin-top: 15%;
     font-family: 'Roboto';
   }
-  #SloganText h1{
-   letter-spacing: 4px;
-  }
+ 
   
   #headerText {
     color: #fff;
   }
+  
   
   #arrowDown {
     margin: 15% 120px 0 0;
