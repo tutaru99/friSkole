@@ -52,7 +52,7 @@ body {
   }
   
   #SloganText {
-    margin-top: 15%;
+    margin-top: 200px;
     font-family: 'Roboto';
   
   }
@@ -101,7 +101,7 @@ body {
     background-image: url(img/Footer.png);
     background-repeat: no-repeat;
     height: 580px;
-    margin: 25% 0 0 0;
+    margin: 350px 0 0 0;
   
   
   }
@@ -166,5 +166,8 @@ body {
   }
   .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
     right: 0;
+  }
+  .img-round {
+    border-radius: 50%;
   }
   
