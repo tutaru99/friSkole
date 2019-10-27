@@ -174,3 +174,6 @@ body {
   background-color: transparent;
   color: rgb(255, 255, 255);
 }
+#socialIcons a{
+  padding: 10px;
+  }

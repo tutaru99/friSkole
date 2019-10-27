@@ -169,6 +169,8 @@ body {
       color: #777777;
       margin-top: 150px;
   }
-  
+  #socialIcons a{
+    padding: 10px;
+    }
   
   

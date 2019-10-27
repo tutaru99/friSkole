@@ -139,5 +139,7 @@ body {
       color: #777777;
   }
   
-  
+  #socialIcons a{
+    padding: 10px;
+    }
   

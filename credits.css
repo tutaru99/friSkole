@@ -104,3 +104,6 @@ body {
     color: #fff;
   }
 
+  #socialIcons a{
+    padding: 10px;
+    }
